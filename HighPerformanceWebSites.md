@@ -6,20 +6,22 @@
 ![前端性能优化图谱](http://img.blog.csdn.net/20170226014317577?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGM1Nzg1Nzk3ODY=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 ### 14条规则
 这本书主要讲了前端优化的14条规则：
-1、减少http请求；
-2、使用内容发布网络；
-3、添加expires头部；
-4、压缩组件；
-5、将样式表放在顶部；
-6、将脚本放在底部；
-7、避免css表达式；
-8、使用外部的javascript和css；
-9、减少dns查找；
-10、精简javascript；
-11、避免重定向；
-12、移除重复脚本；
-13、配置etag；
-14、使ajax缓存。
+
+* 1、减少http请求；
+* 2、使用内容发布网络；
+* 3、添加expires头部；
+* 4、压缩组件；
+* 5、将样式表放在顶部；
+* 6、将脚本放在底部；
+* 7、避免css表达式；
+* 8、使用外部的javascript和css；
+* 9、减少dns查找；
+* 10、精简javascript；
+* 11、避免重定向；
+* 12、移除重复脚本；
+* 13、配置etag；
+* 14、使ajax缓存。
+
 ### 前端优化黄金法则
 在了解这14条规则之前，先记住前端优化黄金法则：
  >   **只有10%~20%的最终用户响应时间花在了下载HTML文档上。其余的80%~90%时间花在了下载页面中的所有组件上。**
